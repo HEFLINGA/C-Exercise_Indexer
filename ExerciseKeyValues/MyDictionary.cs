@@ -36,7 +36,7 @@ namespace ExerciseKeyValues
                     }
                     if (i == keyValues.Length - 1)
                     {
-                        keyValues[stored + 1] = new KeyValue(key, value);
+                        keyValues[stored] = new KeyValue(key, value);
                         stored++;
                     }
                 }
